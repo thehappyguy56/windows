@@ -15,7 +15,6 @@ jobs:
     runs-on: windows-latest
 
     steps:
-    - uses: actions/checkout@v2
     - name: Initializing Setup
       run: ./GRDP-Setup.ps1
     - name: Starting CRD
